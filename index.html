@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MVC-LH TODO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="step-4.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+
+    <h1>MVC-LH TODO</h1>
+
+    <div>
+        <button onclick="handler.add_todo()"> Add </button>
+        <input id = "addTodoTextInput" type="text">
+    </div>
+    <div>
+        <button onclick="handler.update_one()"> Update one </button>
+        <input id = "positionInput" type="number">
+        <input id = "newTodoTextInput" type="text">
+    </div>
+    <div>
+        <button onclick="handler.delete_one()"> Delete one </button>
+        <input id = "positionInputDelete" type="number">
+    </div>
+    <div>
+         <button onclick="handler.read_all()"> Read All </button>
+    </div>
+
+    <ul>
+
+    </ul>
+  
+</body>
+
+</html>
